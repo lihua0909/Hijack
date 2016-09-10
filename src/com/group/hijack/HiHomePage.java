@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.widget.TextView;
 
 import com.group.utils.TopBar;
@@ -51,8 +52,20 @@ public class HiHomePage extends FragmentActivity {
 	 */
 	private void goTowhich(int index){
 		setTextColor(index, getResources().getColor(R.color.background_blue), getResources().getColor(R.color.background_gray));
-	
+		
+		setFragment(index);
 	}
+
+	private void setFragment(int index) {
+		FragmentTransaction ft = mFmanger.beginTransaction();
+		for(int i=0;i < 3;i++){
+			ft.hide(mLists.get(i));
+		}
+		
+		
+		ft.commit();
+	}
+
 
 	private void setTextColor(int index,int color,int defortcolor){
 		

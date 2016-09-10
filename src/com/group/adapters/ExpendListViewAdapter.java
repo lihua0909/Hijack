@@ -20,7 +20,6 @@ public class ExpendListViewAdapter extends ArrayAdapter<String> {
 		super(context, -1);
 		mdatas = objects;
 		minflater = LayoutInflater.from(context);
-		
 	}
 
 	@Override
