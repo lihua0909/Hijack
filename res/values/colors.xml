@@ -3,5 +3,6 @@
 
     <color name="background_blue">#00CDCD</color>
     <color name="background_white">#ffffff</color>
+    <color name="background_gray">#8e8e8e</color>
 
 </resources>

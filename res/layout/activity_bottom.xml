@@ -23,7 +23,7 @@
          />
 
     <TextView
-        android:id="@+id/text_chat_friends"
+        android:id="@+id/text_chat_group"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
