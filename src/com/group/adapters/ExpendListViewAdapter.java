@@ -22,6 +22,7 @@ public class ExpendListViewAdapter extends ArrayAdapter<String> {
 		
 		minflater = LayoutInflater.from(context);
 		
+		
 	}
 
 	@Override
