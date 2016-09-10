@@ -65,4 +65,6 @@ public interface InternetFace {
 	 */
 	public PersonInfo getPersonInfo(String who);
 	
+	
+	
 }
