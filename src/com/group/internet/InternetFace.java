@@ -22,9 +22,9 @@ public interface InternetFace {
 	/**
 	 * 注册
 	 * @param info
-	 * @return 1 为成功，0为失败
+	 * @return
 	 */
-	public int Register(PersonInfo info);
+	public String Register(PersonInfo info);
 	
 	
 	/**

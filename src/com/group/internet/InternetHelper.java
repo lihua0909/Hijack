@@ -13,9 +13,9 @@ public class InternetHelper implements InternetFace {
 	}
 
 	@Override
-	public int Register(PersonInfo info) {
+	public String Register(PersonInfo info) {
 		// TODO Auto-generated method stub
-		return 0;
+		return null;
 	}
 
 	@Override
