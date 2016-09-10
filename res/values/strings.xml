@@ -3,5 +3,11 @@
 
     <string name="app_name">Hijack</string>
     <string name="hello_world">Hello world!</string>
-
+    <string name="chat_send">发送</string>
+    <string name="top_back">返回</string>
+    <string name="text_input_hint">输入要发送的内容：</string>
+    
+    <string name="persons">联系人</string>
+    <string name="msg">消息</string>
+    <string name="group">群组</string>
 </resources>
