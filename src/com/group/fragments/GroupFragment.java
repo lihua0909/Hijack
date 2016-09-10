@@ -1,5 +1,10 @@
 package com.group.fragments;
 
-public class GroupFragment {
+import android.support.v4.app.Fragment;
+/**
+ * Èº×éFragment
+ * @author lenovo
+ */
+public class GroupFragment extends Fragment {
 
 }
